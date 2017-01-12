@@ -62,9 +62,9 @@ db.sync({ force: true }).then(()=> {
 });
 
 const Connectors = {
-  HiveConnector,
-  BeeConnector,
-  HoneyHarvestConnector,
+  HiveConnector: new HiveConnector(),
+  BeeConnector: new BeeConnector(),
+  HoneyHarvestConnector: new HoneyHarvestConnector()
 };
 
 export default Connectors

@@ -2,99 +2,32 @@
 # yarn lockfile v1
 
 
-"@types/body-parser@0.0.33":
-  version "0.0.33"
-  resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-0.0.33.tgz#33ca1498fc37e51c5df0c81cae34569e7041e025"
-  dependencies:
-    "@types/express" "*"
-
-"@types/boom@0.0.32":
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/@types/boom/-/boom-0.0.32.tgz#5dfd349b4e7ebe2c73ca8d39ab05687dd403f9a1"
-  dependencies:
-    "@types/node" "*"
-
-"@types/chai@^3.4.34":
-  version "3.4.34"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.4.34.tgz#d5335792823bb09cddd5e38c3d211b709183854d"
-
-"@types/connect@^3.4.30":
-  version "3.4.30"
-  resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.30.tgz#0a8ede309ce0ebdba2f0534e574692511dd71eb6"
-  dependencies:
-    "@types/node" "*"
-
-"@types/cookies@*", "@types/cookies@^0.5.30":
-  version "0.5.30"
-  resolved "https://registry.yarnpkg.com/@types/cookies/-/cookies-0.5.30.tgz#de798b61d6c6da77d6559ab1db4c6f3c8b4935bd"
-  dependencies:
-    "@types/node" "*"
-
-"@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.0.36":
+"@types/express-serve-static-core@*":
   version "4.0.40"
   resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.0.40.tgz#168e82978bffc81ee7737bc60728d64733a4f37b"
   dependencies:
     "@types/node" "*"
 
-"@types/express@*", "@types/express@^4.0.33":
+"@types/express@^4.0.33":
   version "4.0.34"
   resolved "https://registry.yarnpkg.com/@types/express/-/express-4.0.34.tgz#cdc0afd69d70d2295b81b3aa47f26f672afcde1c"
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
-"@types/fibers@0.0.29":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@types/fibers/-/fibers-0.0.29.tgz#4c815209a717ede505c3040b4e3a31a7f5239d49"
-
 "@types/graphql@^0.8.5":
   version "0.8.5"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.8.5.tgz#3f06ab58a5f37a94c94fafe0767efa0fcd0e7b3a"
 
-"@types/hapi@^13.0.35":
-  version "13.0.37"
-  resolved "https://registry.yarnpkg.com/@types/hapi/-/hapi-13.0.37.tgz#596c4ec52015daa16d36fd75ddbcfac3a5effc30"
-  dependencies:
-    "@types/node" "*"
-
-"@types/http-errors@^1.3.29":
-  version "1.5.32"
-  resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-1.5.32.tgz#b7a2a5a7e31e2b822517b56e32b1c6c1a5d787b4"
-
-"@types/koa-bodyparser@^3.0.19":
-  version "3.0.22"
-  resolved "https://registry.yarnpkg.com/@types/koa-bodyparser/-/koa-bodyparser-3.0.22.tgz#f91ca7c206529f96c90f0ce101e3065d6dfb6503"
-  dependencies:
-    "@types/koa" "*"
-
-"@types/koa-router@^7.0.21":
-  version "7.0.21"
-  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.21.tgz#8d462a631181022472e6a9a690934bbaa9a3e7a5"
-  dependencies:
-    "@types/koa" "*"
-
-"@types/koa@*", "@types/koa@^2.0.33":
-  version "2.0.37"
-  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.37.tgz#7c34661ca98082f9828cf54c393c3c3e6d357aac"
-  dependencies:
-    "@types/cookies" "*"
-    "@types/node" "*"
-
-"@types/mime@*", "@types/mime@0.0.29":
+"@types/mime@*":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-0.0.29.tgz#fbcfd330573b912ef59eeee14602bface630754b"
 
-"@types/multer@0.0.32":
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/@types/multer/-/multer-0.0.32.tgz#f89c751227dc20b7c933c309a3e7467c499fcdec"
-  dependencies:
-    "@types/express" "*"
-
-"@types/node@*", "@types/node@^6.0.41":
+"@types/node@*":
   version "6.0.59"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.59.tgz#b7fd8f3144c447c829a8eab8805c3a523e9e5b44"
 
-"@types/serve-static@*", "@types/serve-static@^1.7.31":
+"@types/serve-static@*":
   version "1.7.31"
   resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.7.31.tgz#15456de8d98d6b4cff31be6c6af7492ae63f521a"
   dependencies:
@@ -134,32 +67,6 @@ anymatch@^1.3.0:
   dependencies:
     arrify "^1.0.0"
     micromatch "^2.1.5"
-
-apollo-server@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/apollo-server/-/apollo-server-0.3.3.tgz#3b6876c1d8bf56f51736375fa48f60dccada75a8"
-  dependencies:
-    "@types/body-parser" "0.0.33"
-    "@types/boom" "0.0.32"
-    "@types/chai" "^3.4.34"
-    "@types/connect" "^3.4.30"
-    "@types/cookies" "^0.5.30"
-    "@types/express" "^4.0.33"
-    "@types/express-serve-static-core" "^4.0.36"
-    "@types/fibers" "0.0.29"
-    "@types/hapi" "^13.0.35"
-    "@types/http-errors" "^1.3.29"
-    "@types/koa" "^2.0.33"
-    "@types/koa-bodyparser" "^3.0.19"
-    "@types/koa-router" "^7.0.21"
-    "@types/mime" "0.0.29"
-    "@types/multer" "0.0.32"
-    "@types/node" "^6.0.41"
-    "@types/serve-static" "^1.7.31"
-    boom "^4.0.0"
-    http-errors "^1.5.0"
-    source-map-support "^0.4.2"
-    typed-graphql "^1.0.2"
 
 aproba@^1.0.3:
   version "1.0.4"
@@ -853,12 +760,6 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
-boom@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/boom/-/boom-4.2.0.tgz#c1a74174b11fbba223f6162d4fd8851a1b82a536"
-  dependencies:
-    hoek "4.x.x"
-
 brace-expansion@^1.0.0:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.6.tgz#7197d7eaa9b87e648390ea61fc66c84427420df9"
@@ -1400,6 +1301,25 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
+graphql-server-core@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/graphql-server-core/-/graphql-server-core-0.4.4.tgz#d5b502f1300b4f775ee3dfa6f8a1bf9fb3cf48a9"
+  optionalDependencies:
+    typed-graphql "^1.0.2"
+
+graphql-server-express@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/graphql-server-express/-/graphql-server-express-0.4.4.tgz#ed4c7b1cc158d03cc95e4eea712def4d1f46d9a0"
+  dependencies:
+    graphql-server-core "^0.4.4"
+    graphql-server-module-graphiql "^0.4.4"
+  optionalDependencies:
+    "@types/express" "^4.0.33"
+
+graphql-server-module-graphiql@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/graphql-server-module-graphiql/-/graphql-server-module-graphiql-0.4.4.tgz#9b8ca9444de7eb40458bf9264579ae200d7029a0"
+
 graphql-tools@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-0.9.0.tgz#672c31b05dab7affc92321635545a49602355f05"
@@ -1454,10 +1374,6 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
-hoek@4.x.x:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.1.0.tgz#4a4557460f69842ed463aa00628cc26d2683afa7"
-
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -1469,7 +1385,7 @@ hooks-fixed@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hooks-fixed/-/hooks-fixed-1.2.0.tgz#0d2772d4d7d685ff9244724a9f0b5b2559aac96b"
 
-http-errors@^1.5.0, http-errors@~1.5.0:
+http-errors@~1.5.0:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.5.1.tgz#788c0d2c1de2c81b9e6e8c01843b6b97eb920750"
   dependencies:
@@ -2203,21 +2119,9 @@ read-all-stream@^3.0.0:
     pinkie-promise "^2.0.0"
     readable-stream "^2.0.0"
 
-readable-stream@2.1.5, readable-stream@~2.1.4:
+readable-stream@2.1.5, readable-stream@^2.0.0, "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.2, readable-stream@~2.1.4:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.1.5.tgz#66fa8b720e1438b364681f2ad1a63c618448c9d0"
-  dependencies:
-    buffer-shims "^1.0.0"
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "~1.0.0"
-    process-nextick-args "~1.0.6"
-    string_decoder "~0.10.x"
-    util-deprecate "~1.0.1"
-
-readable-stream@^2.0.0, "readable-stream@^2.0.0 || ^1.1.13", readable-stream@^2.0.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.2.tgz#a9e6fec3c7dda85f8bb1b3ba7028604556fc825e"
   dependencies:
     buffer-shims "^1.0.0"
     core-util-is "~1.0.0"

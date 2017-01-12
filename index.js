@@ -3,7 +3,7 @@
 import express from 'express';
 import bodyParser from  'body-parser';
 import cors from 'cors';
-import { apolloExpress, graphiqlExpress } from 'apollo-server';
+import { graphqlExpress, graphiqlExpress } from 'graphql-server-express';
 import { makeExecutableSchema, addMockFunctionsToSchema } from 'graphql-tools';
 import Schema from './data/schema.js';
 import { Mocks } from './data/mocks.js';
@@ -22,7 +22,7 @@ const GRAPHQL_PORT = 8080;
 var graphQLServer = express();
 
 graphQLServer.use(cors());
-graphQLServer.use('/graphql', bodyParser.json(), apolloExpress({
+graphQLServer.use('/graphql', bodyParser.json(), graphqlExpress({
   schema: executableSchema,
   context: {connectors: Connectors,}, //at least(!) an empty object
 }));

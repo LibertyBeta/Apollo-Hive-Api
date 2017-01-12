@@ -19,7 +19,7 @@ export default class HiveConnector {
     this.cacheTry = 0;
     this.lastWeather = {};
     this.weatherData = {};
-    this.weatherToken ="669e107fbadf26c41ac3d1baafd6368c";
+    this.weatherToken ="58ac396b49bee29a85c5c1d085af82b8";
     this.Hives = HiveModel;
   }
 
@@ -94,7 +94,7 @@ export default class HiveConnector {
       // console.log(result);
       if(result === null || result.checked < now.valueOf() ){
         // console.log("send data");
-        return Restling.get('https://api.forecast.io/forecast/'+this.weatherToken+'/'+lat+','+lng)
+        return Restling.get('https://api.darksky.net/forecast/'+this.weatherToken+'/'+lat+','+lng)
           .then((result)=>{
             // console.log("Got weather data");
             let currently = result.data.currently;
