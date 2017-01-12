@@ -14,8 +14,7 @@ console.log(Connectors);
 
 const executableSchema = makeExecutableSchema({
   typeDefs: Schema,
-  resolvers: Resolvers,
-  connectors: Connectors,
+  resolvers: Resolvers
 });
 
 const GRAPHQL_PORT = 8080;
@@ -25,7 +24,7 @@ var graphQLServer = express();
 graphQLServer.use(cors());
 graphQLServer.use('/graphql', bodyParser.json(), apolloExpress({
   schema: executableSchema,
-  context: {}, //at least(!) an empty object
+  context: {connectors: Connectors,}, //at least(!) an empty object
 }));
 graphQLServer.use('/graphiql', graphiqlExpress({
   endpointURL: '/graphql',
